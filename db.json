@@ -1,0 +1,26 @@
+{
+    "partients":[
+        {   "id": 1,
+            "fullname": "Alexor Luthor",
+            "age": "36",
+            "nextofkin": "Zexalim Luthor",
+            "phonenumber": "+254736299854"
+        },
+
+        {
+            "id": 2,
+            "fullname": "Mercy Atieno",
+            "age": "19",
+            "nextofkin": "Zexalim Luthor",
+            "phonenumber": "+254736299854"
+        },
+
+        {
+            "id": 3,
+            "fullname": "Jeff Korir",
+            "age": "50",
+            "nextofkin": "Zexalim Luthor",
+            "phonenumber": "+254736299854"
+        }
+    ]
+}
