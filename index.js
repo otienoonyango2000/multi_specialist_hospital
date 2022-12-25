@@ -4,6 +4,7 @@ const main = () => {
   inputForm.addEventListener('submit', (event) => {
     event.preventDefault();
     const input = document.querySelector('input#searchByID');
+    
 
     fetch(`http://localhost:3000/partients/${input.value}`)
     .then(response => response.json())
@@ -28,17 +29,45 @@ const main = () => {
         }
     }
 
-
-    fetch(`http://localhost:3000/partients/${input.value}`, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(partientobj)
-    })
-    .then(res => res.json())
-    .then(data => console.log(partient))
+    alert('Command is being processed')
   });
+
+  create()
+}
+
+function create(){
+const input = document.querySelector('form')
+input.addEventListener('submit', (e)=>{
+  e.preventDefault();
+  let fullname = document.querySelector('#new_input').value
+  let age = document.querySelector('#new_age').value
+  let nextofkin = document.querySelector('#new_kin').value
+  let phonenumber = document.querySelector('#new_number').value
+
+  const obj = {
+    fullname: fullname,
+    age: age,
+    nextofkin: nextofkin,
+    phonenumber: phonenumber
+  }
+
+
+  fetch('http://localhost:3000/partients', {
+    method: 'POST',
+    body: JSON.stringify(obj),
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  })
+  .then((res)=>{
+    return res.json()
+  })
+  .then((data)=>{
+    console.log(data)
+  })
+
+})
+
 }
 
 

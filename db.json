@@ -1,26 +1,81 @@
 {
-    "partients":[
-        {   "id": 1,
-            "fullname": "Alexor Luthor",
-            "age": "36",
-            "nextofkin": "Zexalim Luthor",
-            "phonenumber": "+254736299854"
-        },
-
-        {
-            "id": 2,
-            "fullname": "Mercy Atieno",
-            "age": "19",
-            "nextofkin": "Zexalim Luthor",
-            "phonenumber": "+254736299854"
-        },
-
-        {
-            "id": 3,
-            "fullname": "Jeff Korir",
-            "age": "50",
-            "nextofkin": "Zexalim Luthor",
-            "phonenumber": "+254736299854"
-        }
-    ]
+  "partients": [
+    {
+      "id": 1,
+      "fullname": "Alexor Luthor",
+      "age": "36",
+      "nextofkin": "Zexalim Luthor",
+      "phonenumber": "+254736299854"
+    },
+    {
+      "id": 2,
+      "fullname": "Mercy Atieno",
+      "age": "19",
+      "nextofkin": "Zexalim Luthor",
+      "phonenumber": "+254736299854"
+    },
+    {
+      "id": 3,
+      "fullname": "Jeff Korir",
+      "age": "50",
+      "nextofkin": "Zexalim Luthor",
+      "phonenumber": "+254736299854"
+    },
+    {
+      "fullname": "George Underson",
+      "age": "32",
+      "nextofkin": "Gates",
+      "phonenumber": "+25498658794",
+      "id": 4
+    },
+    {
+      "fullname": "Kevin Masinde",
+      "age": "39",
+      "nextofkin": "Muliro",
+      "phonenumber": "+25759214565",
+      "id": 5
+    },
+    {
+      "fullname": "Steven Ogola",
+      "age": "22",
+      "nextofkin": "Ochieng",
+      "phonenumber": "+2521399587",
+      "id": 6
+    },
+    {
+      "fullname": "Eunice Gichuru",
+      "age": "18",
+      "nextofkin": "Kirimi",
+      "phonenumber": "+254798020365",
+      "id": 7
+    },
+    {
+      "fullname": "Eunice Gichuru",
+      "age": "18",
+      "nextofkin": "Kirimi",
+      "phonenumber": "+254798020365",
+      "id": 8
+    },
+    {
+      "fullname": "Eunice Gichuru",
+      "age": "18",
+      "nextofkin": "Kirimi",
+      "phonenumber": "+254798020365",
+      "id": 9
+    },
+    {
+      "fullname": "Eunice Gichuru",
+      "age": "18",
+      "nextofkin": "Kirimi",
+      "phonenumber": "+254798020365",
+      "id": 10
+    },
+    {
+      "fullname": "Eunice Gichuru",
+      "age": "18",
+      "nextofkin": "Kirimi",
+      "phonenumber": "+254798020365",
+      "id": 11
+    }
+  ]
 }
